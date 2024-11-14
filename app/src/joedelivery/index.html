@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>joeydelivery</title>
     <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,9 +19,9 @@
 </head>
 
 <body>
-    <nav class="bg-[#01b04f] relative h-24 flex flex-col items-center justify-center">
-        <h1 class="text-white text-3xl font-bold pt-3">delivery <i class="fa-solid fa-truck-fast"></i></h1>
-        <div class="bg-white h-8 mt-1 w-5/6 flex rounded-lg overflow-hidden">
+    <nav class="bg-[#01b04f] relative h-24 flex flex-col items-center justify-center relative">
+        <h1 class="text-white text-4xl font-bold pt-3 ">Delivery <i class="fa-solid fa-truck-fast"></i></h1>
+        <div class="bg-white h-8 mt-1 w-5/6 flex rounded-lg overflow-hidden absolute -bottom-5 shadow-xl">
             <button class="flex items-center px-2 text-gray-500 "><span class="material-symbols-outlined">
                     qr_code_scanner
                 </span></button>
@@ -30,7 +29,7 @@
         </div>
     </nav>
 
-    <div class="flex w-full ">
+    <div class="flex w-full  mt-10">
         <div class="flex items-center justify-between w-full py-4 shadow-lg">
             <div class="flex items-center gap-2 w-1/2 justify-center">
                 <div class="border-2 w-8 h-8 flex items-center  justify-center text-green-400 rounded-xl">
@@ -155,21 +154,29 @@
             </div>
         </div>
         <div class="flex flex-col items-center justify-center">
+            <div class="hover:text-green-400 text-center">
             <i class="fa-solid fa-folder"></i>
             <p>Activity</p>
         </div>
+        </div>
         <div class="flex flex-col items-center justify-center">
+            <div class="hover:text-green-400 text-center">
             <i class="fa-solid fa-wallet"></i>
             <p>Wallet</p>
         </div>
+        </div>
 
         <div class="flex flex-col items-center justify-center">
+            <div class="hover:text-green-400 text-center">
             <i class="fa-solid fa-comment"></i>
             <p>Message</p>
         </div>
+        </div>
         <div class="flex flex-col items-center justify-center">
+            <div class="hover:text-green-400 text-center">
             <i class="fa-solid fa-circle-user"></i>
             <p>Account</p>
+        </div>
         </div>
     </div>
 </body>
