@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=qr_code_scanner" />
+</head>
+
+<body>
+    <div class="flex items-center justify-center min-h-screen bg-gray-100 shadow-lg">
+        <div class="bg-white flex  rounded-lg shadow-lg  m-6 relative">
+
+            <div class="flex flex-col justify-center items-center space-y-2 p-10">
+                <img class="w-24 h-24 object-contain"
+                    src="https://static.vecteezy.com/system/resources/previews/005/129/844/non_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
+                    alt="">
+                <span class="text-4xl font-semibold">login to Dashborad</span>
+                <span class="font-light text-gray-400">Plese enter you details </span>
+                <div class="flex flex-col items-start w-full space-y-2 py-4">
+
+                    <span>email</span>
+                    <input type="email" class="w-full border-2 p-3 rounded-xl border-gray-300 placeholder:font-light" placeholder="email" >
+                </div>
+                <div class="flex flex-col items-start w-full space-y-2">
+
+                    <span>Password</span>
+                    <input type="email" class="w-full border-2 p-3 rounded-xl border-gray-300 placeholder:font-light" placeholder="Password" >
+                </div>
+
+                <div class="flex justify-between w-full py-4">
+                    <div>
+                        <input type="checkbox">
+                        <span>Remember me</span>
+                    </div>
+                    <div>
+                        <a href="">Forgot Password</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col w-full space-y-4">
+                    <button class="bg-black text-white w-full p-3 rounded-lg">Login</button>
+                    <button class="bg-black text-white w-full p-3 rounded-lg"><i class="fa-brands fa-google"></i></button>
+                </div>
+
+                <div class="py-4 space-x-2">
+                    <span class="text-gray-400 font-light">Don t have an account</span>
+                    <a href="" class="hover:text-blue-400">Sing up</a>
+                </div>
+            </div>
+
+            <div class="relative flex">
+                <img class="w-[400px] h-full hidden md:block rounded-r-xl object-cover"  src="https://cdn.pixabay.com/photo/2019/10/19/16/30/poverty-4561704_1280.jpg" alt="">
+                <div class="absolute hidden md:block bottom-10 right-6 p-6 bg-white bg-opacity-0 backdrop-blur-sm rounded-lg shadow-xl">
+                    <span class="text-white text-xl">
+                        login to management your project 
+                        <br>
+                        <span class="text-cyan-400 text-md">Enjoy your coding</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
